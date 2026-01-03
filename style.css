@@ -1,0 +1,77 @@
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.nav a{
+    color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.nav a:hover{
+    color: red;
+}
+.main{
+    padding:100px 200px ;
+    background-image: url(0_hero.webp);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.btn{
+    color: #fff;
+    background-color: #3a6cf4;
+    font-size:1.1em;
+    font-weight: 600;
+    padding: 0.9em 2em;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: #033758;
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.3em;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    background-color: #fff;
+    box-shadow: 0px 5px 25px black;
+    min-width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    transition: 1s;
+}
+.card:hover{
+    background-color: #537ced;
+    color: white;
+    transform: scale(1.2 , 1.2);
+}
+
